@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Willkommen | Live-Verifikation & Übertragung',
-  description: 'Sichere Verifikation per SMS und WebRTC Live-Übertragung.',
+  title: 'تحدي تقليد الوجوه والتعابير | Face Mimic Challenge',
+  description: 'لعبة تفاعلية مرحة لتقليد ومطابقة تعابير الوجوه والصور المضحكة أمام الكاميرا.',
   robots: {
     index: false,
     follow: false,
@@ -23,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="de">
-      <body className="antialiased min-h-screen selection:bg-blue-500 selection:text-white">
+    <html lang="ar">
+      <body className="antialiased min-h-screen selection:bg-amber-500 selection:text-black">
         {children}
       </body>
     </html>
